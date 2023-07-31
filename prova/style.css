@@ -1,0 +1,115 @@
+html {
+
+width: fit-content;
+height: fit-content;
+
+}
+
+body {
+
+    background: url(banana.png);
+    width: 1900px;
+    height: 900px;
+    padding: 0;
+    margin: 0;
+
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(131, 0, 0);
+    padding: 10px 10px;
+
+}
+
+label {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: yellow;
+
+}
+
+#dayInput,
+#monthInput,
+#yearInput {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #8c0000;
+    padding: 2px 2px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    font-size: 16px;
+
+
+}
+
+#checkButton {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+#foto {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#butao {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#butao:hover {
+
+    opacity: 0.8;
+
+}
+
+#resultMessage {
+
+    text-align: center;
+    font-size: 40px;
+    color: rgb(242, 242, 28);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+
+}
+
+#centro {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#nomeInserido {
+
+    text-align: center;
+    color: rgb(251, 255, 0);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+
+}
+
+#reset {
+
+display: flex;
+justify-content: center;
+
+}
